@@ -7,13 +7,7 @@
 .pub/
 build/
 
-# Android
-android/.gradle/
-android/captures/
-android/gradlew
-android/gradlew.bat
-android/local.properties
-android/key.properties
+
 *.jks
 
 # iOS
