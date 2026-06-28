@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.restaurant.system"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdk 34
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -42,14 +42,13 @@ android {
 
     defaultConfig {
         applicationId "com.restaurant.system"
-        minSdkVersion 21
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 23
+        targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
     }
 
-    // Flavors for each app
     flavorDimensions "app"
 
     productFlavors {
@@ -92,7 +91,7 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation platform('com.google.firebase:firebase-bom:32.7.0')
     implementation 'com.google.firebase:firebase-analytics'
 }
