@@ -24,6 +24,7 @@ dependencies:
   flutter_animate: ^4.3.0
   lottie: ^3.0.0
   intl: ^0.20.2
+
   # Maps & Location
   google_maps_flutter: ^2.5.0
   geolocator: ^10.1.0
@@ -57,7 +58,6 @@ dependencies:
   shared_preferences: ^2.2.2
 
   # Utils
-  
   uuid: ^4.2.2
   image_picker: ^1.0.7
   file_picker: ^6.1.1
@@ -78,7 +78,7 @@ dependencies:
 
   # QR Code
   qr_flutter: ^4.1.0
-  barcode_scan2: ^4.3.0
+  mobile_scanner: ^3.5.5  # ✅ استبدلنا barcode_scan2
 
 dev_dependencies:
   flutter_test:
